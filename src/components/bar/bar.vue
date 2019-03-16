@@ -17,7 +17,7 @@
                             router>
                                 <el-menu-item index="indexNoMes"><i class="shouye@2"></i><span>首页</span></el-menu-item>                            
                                 <el-menu-item :disabled='true' index=""><i class="kehuxinxiguanli"></i><span>客户信息管理</span></el-menu-item >                               
-                                <el-menu-item  v-for="(val,key,index) in obj" v-if="bar[key] != undefined" :key="index" :index="bar[key]"><span>{{key}}</span></el-menu-item>
+                                <el-menu-item  v-for="(val,key,index) in obj" :key="index" v-if="bar[key] != undefined" :index="bar[key]"><span>{{key}}</span></el-menu-item>
                                 <!-- <el-menu-item index="entryInformation"><span>开户</span></el-menu-item>                                 
                                 <el-menu-item index="inquireList"><span>客户信息查询</span></el-menu-item>
                                 <el-menu-item index="changeList"><span>客户信息变更</span></el-menu-item>
@@ -29,7 +29,7 @@
                             </el-menu>
                     </el-row>
 
-                    
+
                 </el-aside>
                 <el-main>
                     <router-view></router-view>

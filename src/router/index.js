@@ -4,7 +4,7 @@ import getPassWord from '@/components/login/getPassWord' //找回密码
 import test from '@/components/login/test'  //验证
 import login from '@/components/login/login' // 登陆
 import bar from '@/components/bar/bar' //导航列表
-import indexNoMes from '@/components/indexNoMes/indexNoMes' //首页
+import indexNoMes from '@/components/indexNoMes/indexNoMes' //首页 aaaaaaaaaaaaa
 
 
 
