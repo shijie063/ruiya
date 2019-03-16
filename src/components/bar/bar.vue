@@ -28,6 +28,8 @@
                                 <el-menu-item index="2-9"><span>资产配置报告</span></el-menu-item> -->
                             </el-menu>
                     </el-row>
+
+                    
                 </el-aside>
                 <el-main>
                     <router-view></router-view>
